@@ -5,7 +5,18 @@ tags:
   - yasam-alani/is
   - yasam-alani/kisisel
 ---
-
+```meta-bind-button
+label: Oluştur
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: command
+    command: quickadd:runQuickAdd
+```
 ## Beceriler
 ---
 ```dataview

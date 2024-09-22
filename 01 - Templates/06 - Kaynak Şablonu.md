@@ -16,6 +16,18 @@ tags:
   - durum/devam-ediyor
   - durum/tamamlandi
 ---
+```meta-bind-button
+label: Oluştur
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: command
+    command: quickadd:runQuickAdd
+```
 ## Notlar
 ---
 ```dataview

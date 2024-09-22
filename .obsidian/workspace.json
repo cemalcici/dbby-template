@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "🧠 Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "🧠 Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "🧠 Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "🧠 Home.md"
               }
             }
           },
@@ -161,10 +161,6 @@
   },
   "active": "2160478f73d3f508",
   "lastOpenFiles": [
-    "README.md",
-    "🧠 Home.md",
-    "2024-09-22.md",
-    "01 - Templates/03 - Yaşam Alanı Şablonu.md",
     "01 - Templates/08 - İçerik Şablonu.md",
     "01 - Templates/07c - Kod Notu Şablonu.md",
     "01 - Templates/07b - Düşünce Notu Şablonu.md",
@@ -172,6 +168,10 @@
     "01 - Templates/06 - Kaynak Şablonu.md",
     "01 - Templates/05 - Proje Şablonu.md",
     "01 - Templates/04 - Beceri Şablonu.md",
+    "01 - Templates/03 - Yaşam Alanı Şablonu.md",
+    "🧠 Home.md",
+    "README.md",
+    "2024-09-22.md",
     "08 - İçerikler",
     "07 - Notlar",
     "06 - Kaynaklar",

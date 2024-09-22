@@ -3,6 +3,18 @@ arsiv_mi: false
 yasam_alani: 
 olusturma_tarihi: <% tp.file.creation_date() %>
 ---
+```meta-bind-button
+label: Oluştur
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: primary
+actions:
+  - type: command
+    command: quickadd:runQuickAdd
+```
 ## Notlar
 ---
 ```dataview
