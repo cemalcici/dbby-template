@@ -11,8 +11,12 @@
             "id": "b58243538446ea88",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "🧠 Home.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "🧠 Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "🧠 Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "🧠 Home.md"
+              }
             }
           },
           {
@@ -134,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,6 +161,7 @@
   },
   "active": "b58243538446ea88",
   "lastOpenFiles": [
+    "🧠 Home.md",
     "2024-09-22.md",
     "01 - Templates/03 - Yaşam Alanı Şablonu.md",
     "01 - Templates/08 - İçerik Şablonu.md",
