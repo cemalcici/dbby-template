@@ -7,14 +7,14 @@ tags:
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
 FROM "02 - Projects"
-WHERE ilgi_alani = [[<% tp.file.title %>]]
+WHERE contains(ilgi_alani, [[<% tp.file.title %>]])
 SORT olusturma_tarihi DESC
 ```
 ## Kaynaklar
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
 FROM "04 - Resources"
-WHERE ilgi_alani = [[<% tp.file.title %>]]
+WHERE contains(ilgi_alani, [[<% tp.file.title %>]])
 SORT olusturma_tarihi DESC
 ```
 ## Notlar
@@ -22,13 +22,13 @@ SORT olusturma_tarihi DESC
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
 FROM "01 - Inbox"
-WHERE kaynak = [[<% tp.file.title %>]]
+WHERE contains(ilgi_alani, [[<% tp.file.title %>]])
 SORT olusturma_tarihi DESC
 ```
 ### Kalıcı Notlar
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
 FROM "05 - Notes"
-WHERE kaynak = [[<% tp.file.title %>]]
+WHERE contains(ilgi_alani, [[<% tp.file.title %>]])
 SORT olusturma_tarihi DESC
 ```

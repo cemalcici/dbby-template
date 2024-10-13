@@ -21,13 +21,13 @@ tags:
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
 FROM "01 - Inbox"
-WHERE kaynak = [[<% tp.file.title %>]]
+WHERE contains(kaynak, [[<% tp.file.title %>]])
 SORT olusturma_tarihi DESC
 ```
 ### Kalıcı Notlar
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
 FROM "05 - Notes"
-WHERE kaynak = [[<% tp.file.title %>]]
+WHERE contains(kaynak, [[<% tp.file.title %>]])
 SORT olusturma_tarihi DESC
 ```
