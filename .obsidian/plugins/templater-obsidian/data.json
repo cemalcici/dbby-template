@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "01 - Templates",
+  "templates_folder": "00 - Templates",
   "templates_pairs": [
     [
       "",
@@ -19,10 +19,22 @@
       "template": ""
     }
   ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    ""
+    "00 - Templates/02 - Projects Template.md",
+    "00 - Templates/03 - Area Template.md",
+    "00 - Templates/04a - Book Resources Template.md",
+    "00 - Templates/04b - Video Resource Template.md",
+    "00 - Templates/04c - Article Resource Template.md",
+    "00 - Templates/05 - Notes Template.md"
   ],
   "startup_templates": [
     ""

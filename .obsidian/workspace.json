@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "737ac09577c820c9",
+        "id": "1695c464c39f936e",
         "type": "tabs",
         "children": [
           {
-            "id": "2160478f73d3f508",
+            "id": "9ce57f48fbcfe2ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 Home.md",
+                "file": "🧠 HOME.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠 Home.md",
+                "file": "🧠 HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠 Home.md",
+                "file": "🧠 HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 Home.md"
+                "file": "🧠 HOME.md"
               }
             }
           },
@@ -159,27 +159,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2160478f73d3f508",
+  "active": "9ce57f48fbcfe2ea",
   "lastOpenFiles": [
+    "🧠 HOME.md",
+    "99 - Archives",
+    "98 - Attachments",
+    "05 - Notes",
+    "04 - Resources",
+    "03 - Areas",
+    "02 - Projects",
+    "01 - Inbox",
+    "00 - Templates/05 - Notes Template.md",
+    "00 - Templates/03 - Area Template.md",
+    "00 - Templates/04c - Article Resource Template.md",
+    "00 - Templates/04b - Video Resource Template.md",
+    "00 - Templates/04a - Book Resources Template.md",
+    "00 - Templates/02 - Projects Template.md",
+    "00 - Templates",
+    "🧠 Home.md",
+    "01 - Templates/04 - Beceri Şablonu.md",
+    "01 - Templates/03 - Yaşam Alanı Şablonu.md",
     "01 - Templates/08 - İçerik Şablonu.md",
     "01 - Templates/07c - Kod Notu Şablonu.md",
     "01 - Templates/07b - Düşünce Notu Şablonu.md",
     "01 - Templates/07a - Bilgi Notu Şablonu.md",
     "01 - Templates/06 - Kaynak Şablonu.md",
     "01 - Templates/05 - Proje Şablonu.md",
-    "01 - Templates/04 - Beceri Şablonu.md",
-    "01 - Templates/03 - Yaşam Alanı Şablonu.md",
-    "🧠 Home.md",
     "README.md",
     "2024-09-22.md",
     "08 - İçerikler",
-    "07 - Notlar",
-    "06 - Kaynaklar",
-    "05 - Projeler",
-    "04 - Beceriler",
-    "03 - Yaşam Alanları",
-    "02 - Tools",
-    "01 - Templates",
-    "00 - Attachments"
+    "07 - Notlar"
   ]
 }

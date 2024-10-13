@@ -1,0 +1,10 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "ilgi_alani": "multitext",
+    "proje": "multitext",
+    "kaynak": "multitext"
+  }
+}

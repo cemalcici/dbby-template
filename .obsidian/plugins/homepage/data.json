@@ -2,14 +2,14 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "🧠 Home",
+      "value": "🧠 HOME",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Default view",
       "revertView": true,
-      "openWhenEmpty": true,
+      "openWhenEmpty": false,
       "refreshDataview": false,
       "autoCreate": false,
       "autoScroll": false,

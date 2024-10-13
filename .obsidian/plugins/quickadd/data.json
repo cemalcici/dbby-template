@@ -1,20 +1,18 @@
 {
   "choices": [
     {
-      "id": "7924216d-b2a1-494f-ab01-890bf67ef6a4",
-      "name": "Yeni Yaşam Alanı",
+      "id": "28946aa4-6ae1-4106-bb82-ac966cf6caf6",
+      "name": "Create Note",
       "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/03 - Yaşam Alanı Şablonu.md",
+      "command": true,
+      "templatePath": "00 - Templates/05 - Notes Template.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{value}}"
+        "format": "NOTE - {{value}}"
       },
       "folder": {
-        "enabled": true,
-        "folders": [
-          "03 - Yaşam Alanları"
-        ],
+        "enabled": false,
+        "folders": [],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -23,228 +21,18 @@
       "openFileInNewTab": {
         "enabled": false,
         "direction": "vertical",
-        "focus": true
+        "focus": false
       },
       "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "d972c00d-f85c-426a-a701-34e5b097ba32",
-      "name": "Yeni Beceri",
-      "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/04 - Beceri Şablonu.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "04 - Beceriler"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "5b2be912-8ca3-48bc-aa92-fedcc0dc978b",
-      "name": "Yeni Proje",
-      "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/05 - Proje Şablonu.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "05 - Projeler"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "71744454-ee6d-4270-a420-cd696c3c24ec",
-      "name": "Yeni Kaynak",
-      "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/06 - Kaynak Şablonu.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "06 - Kaynaklar"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "a2661ac6-b29e-499b-93f9-b4b27a7d4e0d",
-      "name": "Yeni Bilgi Notu",
-      "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/07a - Bilgi Notu Şablonu.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "07 - Notlar"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "2dc7daed-b568-43c8-b198-0bd1ce180e74",
-      "name": "Yeni Düşünce Notu",
-      "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/07b - Düşünce Notu Şablonu.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "07 - Notlar"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "0b6ac9a0-0876-40cf-b201-08068c56aa3f",
-      "name": "Yeni Kod Notu",
-      "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/07c - Kod Notu Şablonu.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "07 - Notlar"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
-    },
-    {
-      "id": "8b2ed9e4-7c76-4e09-a813-4fc2e95b60c3",
-      "name": "Yeni İçerik",
-      "type": "Template",
-      "command": false,
-      "templatePath": "01 - Templates/08 - İçerik Şablonu.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{value}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "08 - İçerikler"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": true
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "00 - Templates",
   "announceUpdates": true,
   "version": "0.14.0",
   "disableOnlineFeatures": true,

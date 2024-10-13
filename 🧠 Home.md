@@ -1,5 +1,7 @@
+## Yakala
+
 ```meta-bind-button
-label: Oluştur
+label: Not Oluştur
 icon: ""
 hidden: false
 class: ""
@@ -8,118 +10,38 @@ id: ""
 style: primary
 actions:
   - type: command
-    command: quickadd:runQuickAdd
-```
-## Durumlarına Göre Bileşenler
----
-### Eklenenler
-```dataview
-TABLE file.folder as "Klasör", olusturma_tarihi as "Oluşturma Tarihi"
-FROM #durum/eklendi 
-where arsiv_mi = false and file.folder != "01 - Templates"
-SORT file.folder ASC, olusturma_tarihi DESC
-```
-### Devam Edenler
-```dataview
-TABLE file.folder as "Klasör", olusturma_tarihi as "Oluşturma Tarihi"
-FROM #durum/devam-ediyor  
-where arsiv_mi = false and file.folder != "01 - Templates"
-SORT file.folder ASC, olusturma_tarihi DESC
-```
-### Tamamlananlar
-```dataview
-TABLE file.folder as "Klasör", olusturma_tarihi as "Oluşturma Tarihi"
-FROM #durum/tamamlandi  
-where arsiv_mi = false and file.folder != "01 - Templates"
-SORT file.folder ASC, olusturma_tarihi DESC
+    command: quickadd:choice:28946aa4-6ae1-4106-bb82-ac966cf6caf6
 ```
 
-## Tüm Bileşenler
----
-### Yaşam Alanları
+## Gelen Kutusu
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "03 - Yaşam Alanları"
-where arsiv_mi = false
+FROM "01 - Inbox"
+WHERE kaynak = [[<% tp.file.title %>]]
 SORT olusturma_tarihi DESC
 ```
-### Beceriler
+## Projeler
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "04 - Beceriler"
-where arsiv_mi = false
+FROM "02 - Projects"
 SORT olusturma_tarihi DESC
 ```
-### Projeler
+## İlgi Alanları
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "05 - Projeler"
-where arsiv_mi = false
+FROM "03 - Areas"
 SORT olusturma_tarihi DESC
 ```
-### Kaynaklar
+## Kaynaklar
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "06 - Kaynaklar"
-where arsiv_mi = false
+FROM "04 - Resources"
 SORT olusturma_tarihi DESC
 ```
-### Notlar
+## Notlar
 ```dataview
 TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "07 - Notlar"
-where arsiv_mi = false
-SORT olusturma_tarihi DESC
-```
-### İçerikler
-```dataview
-TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "08 - İçerikler"
-where arsiv_mi = false
-SORT olusturma_tarihi DESC
-```
-
-## Arşivlenenler
----
-### Yaşam Alanları
-```dataview
-TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "03 - Yaşam Alanları"
-where arsiv_mi = true
-SORT olusturma_tarihi DESC
-```
-### Beceriler
-```dataview
-TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "04 - Beceriler"
-where arsiv_mi = true
-SORT olusturma_tarihi DESC
-```
-### Projeler
-```dataview
-TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "05 - Projeler"
-where arsiv_mi = true
-SORT olusturma_tarihi DESC
-```
-### Kaynaklar
-```dataview
-TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "06 - Kaynaklar"
-where arsiv_mi = true
-SORT olusturma_tarihi DESC
-```
-### Notlar
-```dataview
-TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "07 - Notlar"
-where arsiv_mi = true
-SORT olusturma_tarihi DESC
-```
-### İçerikler
-```dataview
-TABLE olusturma_tarihi as "Oluşturma Tarihi"
-FROM "08 - İçerikler"
-where arsiv_mi = true
+FROM "05 - Notes"
+WHERE kaynak = [[<% tp.file.title %>]]
 SORT olusturma_tarihi DESC
 ```

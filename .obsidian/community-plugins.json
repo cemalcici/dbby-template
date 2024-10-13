@@ -1,10 +1,12 @@
 [
   "dataview",
-  "homepage",
-  "dbfolder",
   "obsidian-git",
+  "homepage",
+  "mermaid-themes",
+  "mermaid-tools",
   "obsidian-meta-bind-plugin",
-  "templater-obsidian",
   "obsidian-mind-map",
-  "quickadd"
+  "quickadd",
+  "templater-obsidian",
+  "auto-note-mover"
 ]
