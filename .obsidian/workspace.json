@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 HOME.md",
+                "file": "00 - Templates/02 - Projects Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠 HOME.md",
+                "file": "00 - Templates/02 - Projects Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🧠 HOME.md",
+                "file": "00 - Templates/02 - Projects Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 HOME.md"
+                "file": "00 - Templates/02 - Projects Template.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "🧠 HOME.md",
+                "file": "00 - Templates/02 - Projects Template.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,8 +211,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "🧠 HOME.md",
+    "Untitled.canvas",
     "00 - Templates/Yeni Metin Belgesi.txt",
     "99 - Archives",
     "98 - Attachments",
