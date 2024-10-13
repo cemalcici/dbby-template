@@ -33,7 +33,7 @@
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "00 - Templates",
-  "announceUpdates": true,
+  "announceUpdates": false,
   "version": "1.11.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
